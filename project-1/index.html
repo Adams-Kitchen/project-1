@@ -3,101 +3,171 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Adam Benson's Ballroom Portfolio</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/859784af25.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </head>
-    
-    <style>
-        body {
-            font-family: 'American Typewriter', serif;
-            background-color: rgb(107, 16, 26); 
-            margin: 0;
-            padding: 20px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-        }
+<body>
 
-        /* Applying the irregular border */
-        .newspaper-card {
-            background-color: #fdf3d7; /* Yellowed paper look */
-            width: 400px;
-            padding: 20px;
-            font-size: 18px;
-            line-height: 1.6;
-            text-shadow: 0.5px 0.5px 0 #c8c2b4; /* Light shadow to simulate old ink printing */
-            background-image: url('https://www.transparenttextures.com/patterns/old-mathematics.png'); /* Subtle paper texture */
-            border: 20px solid transparent; 
-            border-image: url('https://www.toptal.com/designers/subtlepatterns/patterns/rough-paper.png') 30 round; /* Image-based rough border */
-            box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.3); /* Slight shadow for depth */
-        }
+    <!-- Navbar -->
+    <header>
+        <nav>
+            <ul class="navbar">
+                <li><a href="#home" class="fa-cube fa-solid">
+                    Adam Benson's Ballroom Portfolio        
+                </a></li> 
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#accomplishments">Accomplishments</a></li>
+                <li><a href="#lesson">Private Lesson Inquiries</a></li>
+            </ul>
+        </nav>
+    </header>
 
-        .newspaper-card h1 {
-            font-family: 'American Typewriter', serif;
-            font-size: 24px;
-            margin-bottom: 10px;
-            text-align: center;
-            border-bottom: 1px solid #a89d7e;
-            padding-bottom: 10px;
-        }
-
-        .newspaper-card h2 {
-            font-size: 20px;
-            margin-bottom: 8px;
-            color: #5d5343; /* Faded text color */
-        }
-
-        .newspaper-card p {
-            text-align: justify;
-            color: #4b4434; /* Faded ink color */
-        }
-
-        .newspaper-card .date {
-            text-align: right;
-            font-size: 14px;
-            margin-top: 20px;
-            border-top: 1px solid #a89d7e;
-            padding-top: 10px;
-            color: #5d5343;
-        }
-
-    </style>
-    <body>
-    
-        <div class="newspaper-card">
-            <h1> Josef Stalin: The "Man of Steel"</h1>
-            <h2>The Ruthless Leader and the Legacy he Left Behind</h2>
-            <p>Josef Stalin (born Ioseb Besarionis dze Jughashvili, 1878–1953) was the leader of the Soviet Union from the mid-1920s until his death in 1953. 
-                Stalin rose to power after the death of Vladimir Lenin in 1924, consolidating his rule through brutal political purges, 
-                repression, and control over the Communist Party. Under his leadership, the USSR transitioned 
-                from an agrarian society to an industrial superpower through rapid industrialization and forced collectivization of agriculture. 
-                However, these policies led to widespread famine, notably the Holodomor in Ukraine, and millions of deaths.</p>
-            <p>Stalin's rule was characterized by a cult of personality, with propaganda and censorship used to maintain his image as a strong and infallible leader. </p>
-            <p>Stalin is best known for his Great Purge (1936–1938), during which he 
-                eliminated perceived enemies through imprisonment, exile, and execution. His regime was 
-                characterized by extreme authoritarianism, widespread surveillance, and political repression. </p>
-            <p>After his death in 1953, Stalin's legacy remained controversial, with some viewing him as a hero who modernized the Soviet Union and defeated fascism, 
-                while others see him as a <i><b>ruthless</b></i> dictator responsible for the deaths of <i><b>millions</b></i> of people. </p>
-            <div class="date">
-                Date of Birth: December 18, 1878 <br>
-                Date of Death: March 5, 1953
+    <!-- Main Content -->
+    <main class="content">
+        
+        <section id="home" class="card-container">
+            <div>
+                <h1>Welcome to my Ballroom Portfolio!</h1>
             </div>
+        </section>
 
+        <section id="about" class="card-container">
+            <div class="card">
+                <h2 class="fa-eye fa-solid"> About Me</h2>
+                    <p> I started dancing when I was about 10 years old. <br>
+                        All of my friends were doing it, so I thought I <br>
+                        would give it a try. Now, 14 years later, it brought <br>
+                        me to BYU and none of my old friends dance anymore haha. <br>
+                        I danced for many different studios and teachers in high school, but <br>
+                        once I got to BYU, I started dancing with the BYU Ballroom Dance Company. <br>
+                        I danced on a team for 4 years, and I loved every second of it. <br>
+                        It was a lot of work, but it was so much fun. <br>
+                        It took me all over America and the world, and I made so many friends on 3 different continents. <br>
+                    </p>
+            </div>
+        </section>
 
-            
+        <section id="accomplishments" class="card-container">
+            <div class="card">
+                <h2 class="fa-pencil fa-solid"> Accomplishments </h2>
+                <ul style="list-style-type: none">
+                    <li>Youth National Latin Formation Division II Champion</li>
+                    <li>BYU Gold Bar Ballroom Red Carpet Finalist at 2023 National Championships</li>
+                    <li>2X Adult USA Ballroom Formation Champion</li>
+                    <li>Blackpool Dance Festival Ballroom Formation Champion</li>
+                    <li>Former BYU Tour Team Member</li>
+                    <li>Latin Finalist in Competitions around America</li>
+                    <li>Ballroom and Latin Instructor at BYU</li>
+                    <li>Ballroom, Latin, Rhythm, and Smooth Instructor at Dance Studios all around Utah, including Cedar Valley Ballroom and Island Style Dance Studio</li>
+                    <li>Trained with many world finalist and champions</li>
+                    <li>Performed the half-time show for a Utah Jazz game in High School</li>
+                    <li>Performed in Disneyland and Universal Studios</li>
+                    <li>Performed around America in California, Washington, Oregon, Wyoming, Idaho, Utah, Nevada, and Florida </li>
+                    <li>Invited by BYU President Reese to perform at his private inauguration event with an audience of all living BYU Presidents and many other LDS Apostles</li>
+                    <li>Received South Africa's Zulu Tribe membership from the Zulu Queen</li>
+                    <li>Featured in a Music Video for the Church of Jesus Christ and Rootstech</li>
+                    <li>Featured in an Episode of BYUtv's "Random Acts of Kindness" as a professional dancer/grandpa</li>
+                    <li>See photos and videos of some of my experiences below</li>
+                </ul>
+                <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="IMG_5454.JPG" class="d-block w-100" alt="Blackpool">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="20230604_184438_Original.jpg" class="d-block w-100" alt="Team in Brussels">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="IMG_6860.jpg" class="d-block w-100" alt="BYU Ballroom Dance Company Touring Company 2022-2023">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="IMG_6761.jpg" class="d-block w-100" alt="My wife and I at the United States National Amateur Dancesport Championships">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="IMG_7651.JPG" class="d-block w-100" alt="BYU November Dancesport">
+                        </div>
+                        <div class="carousel-item"> 
+                            <img src="IMG_8113.jpeg" class="d-block w-100" alt="My Wife and I after placing 3rd with one of our coaches Dasha Sereda"> 
+                        </div>
+                        <div class="carousel-item"> 
+                            <img src="IMG_5370.jpeg" class="d-block w-100" alt="Blackpool Champion"> 
+                        </div>
+                        <div class="carousel-item"> 
+                            <img src="IMG_1040.JPG" class="d-block w-100" alt="My Wife and I in Africa with some African children"> 
+                        </div>
+                        <div class="carousel-item"> 
+                            <img src="IMG_2336.jpeg" class="d-block w-100" alt="My wife and I during the music video filming for Rootstech"> 
+                        </div>
+                        <div class="carousel-item">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/9CjsG6mv0j0?si=2aTF3LQAUIWmmjZj&mute=1&autoplay=1" 
+                            title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; 
+                            gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+                        <div class="carousel-item">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/ibDjXXTbBP8?si=6X26T_bmwN8rSqZA&amp;start=123&mute=1&autoplay=1" 
+                            title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; 
+                            picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+                        <div class="carousel-item">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/judtPAIdzk0?si=iMsGso3k1Kz2r9TX&mute=1&autoplay=1" 
+                            title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; 
+                            gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+                </div>
+        </section>
 
-   ⬤
-</div>
+        <section id="lesson" class="card-container">
+            <div class="card">
+                <form>
+                    <h1 class="fa-clipboard-question fa-solid"> Inquire about lessons here:</h1>
+                    <label for="exampleInputName1">First Name:</label>
+                    <input type="text" id="exampleInputName1">
+                    
+                    <label for="exampleInputName2">Last Name:</label>
+                    <input type="text" id="exampleInputName2">
 
+                    <label for="date">When would you like to start?</label>
+                    <input type="date" id="date" name="date">
 
+                    <label for="exampleInputEmail1">Email:</label>
+                    <input type="email" id="exampleInputEmail1">
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/CM4FoHmSArs?si=AmbZ2MbQq10oQfrs" title="YouTube video player" 
-frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <label for="danceExperience">How much dance experience do you have?</label>
+                    <textarea id="danceExperience" rows="5" style="width: 80%;" placeholder="Share your dance experience here..."></textarea>
 
-    </body>
-    
+                    <label for="subscribe" style="display: flex; align-items: center;">
+                        <input type="checkbox" id="subscribe" style="margin-right: 5px;">
+                        Subscribe for updates about my availability!
+                    </label>
+
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer">
+            <p>&copy; 2024 Adam Benson | Contact: adambenson212@gmail.com</p>
+        </div>
+    </footer>
+
+</body>
 </html>
-    
 
